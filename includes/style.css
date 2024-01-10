@@ -1,0 +1,205 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height:100vh;
+}
+* {
+    box-sizing: border-box;
+}
+
+.centered-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0.5rem 0.6rem 0rem 0.6rem;
+}
+
+.card {
+    margin: 1rem;
+}
+
+.filter-section {
+    background: rgb(39,45,70);
+    background: linear-gradient(90deg, rgba(39,45,70,1) 0%, rgba(31,36,57,1) 60%);
+    padding: 2rem 0 0 2rem;
+}
+
+.record-cards {
+    padding-left: 20px;
+}
+
+.recordResult {
+    margin-left: 4rem;
+}
+
+.search-bar {
+    margin: 0 0 0.5rem 4rem;
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.submit-button {
+    background-color: #0077c6;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 5rem;
+    padding: 2rem;
+}
+
+.back-button:hover {
+    text-decoration: none;
+}
+
+.login-signup-form .search-bar {
+    margin: 0.5rem 0 1rem 0;
+    width: 30%;
+}
+
+.login-signup-form .submit-button {
+    width: 30%;
+    margin: 0.5rem 0 1rem 0;
+}
+
+#employee-section, #record-section {
+    margin: 1rem 3rem 1rem 3rem;
+    display: flex;
+}
+
+.employee-form .search-bar, .record-form .search-bar {
+    margin: 0.2rem 0 0.2rem 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.employee-form .submit-button, .record-form .submit-button, .record-edit-text .submit-button {
+    width: 100%;
+    margin: 0.2rem 0 0.5rem 0;
+}
+
+.add-employee, .add-record {
+    width: 20%;
+}
+
+.employee-search-box, .record-search-box {
+    width: 80%;
+    margin-left: 3rem;
+}
+
+.employee-search-box .search-bar, .record-search-box .search-bar {
+    margin: 0.3rem 0 1rem 0;
+    font-size: 18px;
+    width: 50%;
+}
+
+.record-edit-text .search-bar {
+    margin: 0 0 1rem 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+.checkbox-input {
+    margin-right: 20px;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0077c6;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-input:checked {
+    background-color: #0077c6;
+    border-color: #0077c6;
+}
+
+.checkbox-filter {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    display: flex;
+    margin: 1rem 0 1rem 0;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+.media-button {
+    border-radius: 5px;
+    background-color: #0077c6;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.media-button:hover {
+    background-color: #2cabff;
+}
+
+.media-button:active {
+    background-color: #85ceff;
+}
+
+.media-button:disabled, .media-button[disabled] {
+    background-color: rgb(168, 172, 177);
+    cursor: default;
+}
+
+#price {
+    font-weight: bolder;
+    font-size: 56px;
+}
+
+#record-cover {
+    box-shadow: -15px 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+.view-record-button {
+    background-color: #0089e4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 18px;
+}
+
+.view-record-button:hover {
+    text-decoration: none;
+    background-color: #85ceff;
+    color: #0073bf;
+}
+
+.view-record-button:active {
+    background-color: #a5dbff;
+}
+
+.view-record-container {
+    font-size: 32px;
+    padding: 2rem;
+}
+
+.view-record-container .submit-button {
+    font-size: 32px;
+    padding: 1rem 2rem 1rem 2rem;
+}
